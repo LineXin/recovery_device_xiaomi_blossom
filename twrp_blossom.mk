@@ -20,3 +20,11 @@ PRODUCT_NAME := twrp_blossom
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Blossom
 PRODUCT_MANUFACTURER := xiaomi
+
+# ----------------------------------------------------
+# PitchBlack Recovery Project (PBRP) Configuration Flags
+# ----------------------------------------------------
+PB_BUILD_TYPE := Unofficial
+PB_OFFICIAL := false
+PB_DEVICE_NAME := blossom
+PB_VERSION := 4.0
