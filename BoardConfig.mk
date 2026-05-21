@@ -159,6 +159,7 @@ TW_USE_SIMPLIFIED_KEY_DIR_CHECK := true
 
 TW_SKIP_ADDITIONAL_FSTAB := true
 TW_FORCE_KEYMASTER_VER := true
+
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
 # TWRP (Debug)
