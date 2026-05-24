@@ -45,7 +45,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootimage.build.date.utc=0 \
-    ro.pbrp.maintainer=LineXin \
+    ro.shrp.maintainer=LineXin \
+    ro.twrp.maintainer=LineXin \
+    ro.ofrp.maintainer=LineXin \
     ro.build.date.utc=0
 
 # Kernel
