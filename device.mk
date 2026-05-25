@@ -46,6 +46,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootimage.build.date.utc=0 \
     ro.shrp.maintainer=LineXin \
+    ro.shrp.device=blossom \
     ro.twrp.maintainer=LineXin \
     ro.ofrp.maintainer=LineXin \
     ro.build.date.utc=0
