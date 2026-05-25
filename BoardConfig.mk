@@ -175,3 +175,16 @@ BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
+
+# ----------------------------------------------------
+# SkyHawk Recovery Project (SHRP) Configuration
+# ----------------------------------------------------
+SHRP_MAINTAINER := LineXin
+SHRP_DEVICE := blossom
+SHRP_EDITION := Community
+SHRP_OFFICIAL := false
+SHRP_RECOVERY_TYPE := Regular
+
+# Дополнительные фичи SHRP (чтобы всё выглядело по красоте)
+SHRP_DARK_MODE := true
+SHRP_EXCLUDE_THEMES := false
